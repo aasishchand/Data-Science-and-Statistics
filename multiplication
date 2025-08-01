@@ -1,0 +1,7 @@
+The multiplication property in probability is a fundamental rule used to find the probability of two or more events happening together. It's often used in the context of conditional probability.
+
+There are two main cases:
+
+For Independent Events: If two events A and B are independent (meaning the occurrence of one does not affect the probability of the other), the probability of both events occurring is the product of their individual probabilities: P(A and B) = P(A) * P(B)
+For Dependent Events: If two events A and B are dependent (meaning the occurrence of one does affect the probability of the other), the probability of both events occurring is calculated using conditional probability: P(A and B) = P(A|B) * P(B) or P(A and B) = P(B|A) * P(A)
+In the code , the second case (dependent events) is used to calculate the joint probabilities of testing positive and having/not having the disease. This is because the probability of testing positive depends on whether or not a person has the disease.
